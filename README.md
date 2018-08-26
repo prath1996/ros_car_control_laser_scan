@@ -23,10 +23,14 @@ contains the cpp file for capturing the laser scan points and making a map.
 ----------------------------------------------------------------------------------------------------
 ### To run the project:
 Open terminal --> navigate to /cakin_ws 
+
 Enter: catkin_make
 
 In terminal enter: roslaunch mybot_gazebo mybot_world.launch
+
 Open new terminal --> Enter: roslaunch mybot_gazebo assembler.launch
+
 Open new terminal --> Enter: rosrun mybot_gazebo laser_assembler_service_caller
+
 Open new terminal --> Enter: rosrun turtlesim turtle_teleop_key /turtle1/cmd_vel:=/mybot/cmd_vel 
 
