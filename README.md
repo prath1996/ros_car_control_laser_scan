@@ -34,3 +34,4 @@ Open new terminal --> Enter: rosrun mybot_gazebo laser_assembler_service_caller
 
 Open new terminal --> Enter: rosrun turtlesim turtle_teleop_key /turtle1/cmd_vel:=/mybot/cmd_vel 
 
+Working video: https://kpitc.sharepoint.com/:v:/s/GenesisArtifacts-MicroandMiniProjectSubmission/EWY8C9gwUmZNlzdN55sb4lgBVSrY0dD6nCE-0i-u4SrjQQ?e=iNVRM5
